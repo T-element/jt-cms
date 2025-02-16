@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/dev/*"
+  to = "http://123.207.32.32:5000/:splat"
+  status = 200
+  
+[[headers]]
+  for = "/dev/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
