@@ -1,0 +1,1 @@
+import{_ as e,c as n,k as t,o as s}from"./index-Ds9wwjLc.js";const c={},r={class:"notFound"};function a(_,o){return s(),n("div",r,o[0]||(o[0]=[t("h1",null,"页面加载错误，请联系管理员",-1)]))}const l=e(c,[["render",a]]);export{l as default};
